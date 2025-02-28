@@ -61,8 +61,14 @@ graph.add_edge("virtual_teacher", "end")
 
 # compile and execute the graph
 teacher = graph.compile()
-question = "How to solve the equation 2x + 3 = 7?"
+question = input("Enter your math question: ")
+
 response = teacher.invoke({"question": question})
 
-# display the response in JSON format
-print(json.dumps(response, indent=2, ensure_ascii=False))
+# ask the user if they want the JSON format output
+choice = input("Do you want the response in JSON format? (yes/no): ").strip().lower()
+
+if choice == "yes":
+    print(json.dumps(response, indent=2, ensure_ascii=False))
+else:
+    print("Response:", response.get("response", "No response generated."))
