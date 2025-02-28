@@ -6,6 +6,12 @@ LangChain e LangGraph são ferramentas poderosas e muito úteis para a criação
   
 - **LangGraph** é uma extensão que permite estruturar essas interações em um grafo, facilitando a criação de workflows dinâmicos.
 
+- Resumidamente...
+
+- Use LangChain se você precisar de um chatbot padrão, integração com APIs ou cadeias simples de chamadas de LLM.
+
+- Use LangGraph se seu fluxo de trabalho de IA exigir múltiplos pontos de decisão, caminhos de execução dinâmicos ou lógica complexa (por exemplo, agentes de IA colaborando em uma tarefa).
+
 Neste documento, vou te explicar como instalar e executar projetos utilizando essas bibliotecas. 
 
 ---
