@@ -1,4 +1,29 @@
-![LangChain LangGraph](https://yt3.googleusercontent.com/7aMstlSvB1R2xAAOxF91vHWtAX2bhptsv6ROXPglCOyax0HKc8AATSYbqKr-10u4WvJ-e08b7Qg=s900-c-k-c0x00ffffff-no-rj)
+```python
+from PIL import Image
+import requests
+from io import BytesIO
+
+# URL da imagem
+url = "https://yt3.googleusercontent.com/7aMstlSvB1R2xAAOxF91vHWtAX2bhptsv6ROXPglCOyax0HKc8AATSYbqKr-10u4WvJ-e08b7Qg=s900-c-k-c0x00ffffff-no-rj"
+
+# Baixar a imagem
+response = requests.get(url)
+image = Image.open(BytesIO(response.content))
+
+# Definir novo tamanho (exemplo: 1200x800)
+nova_largura = 1200
+nova_altura = 800
+
+# Redimensionar a imagem
+imagem_redimensionada = image.resize((nova_largura, nova_altura), Image.ANTIALIAS)
+
+# Salvar a nova imagem
+imagem_redimensionada.save("imagem_retangular.png")
+
+# Mostrar a imagem redimensionada
+imagem_redimensionada.show()
+```
+
 
 
 LangChain e LangGraph são ferramentas poderosas e muito úteis para a criação de aplicações baseadas em modelos de linguagem.
