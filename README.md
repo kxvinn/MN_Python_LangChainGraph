@@ -1,5 +1,3 @@
-🦜🕸️LangGraph
-
 
 
 LangChain e LangGraph são ferramentas poderosas e muito úteis para a criação de aplicações baseadas em modelos de linguagem.
