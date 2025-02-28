@@ -1,3 +1,6 @@
+![LangChain LangGraph](https://yt3.googleusercontent.com/7aMstlSvB1R2xAAOxF91vHWtAX2bhptsv6ROXPglCOyax0HKc8AATSYbqKr-10u4WvJ-e08b7Qg=s900-c-k-c0x00ffffff-no-rj)
+
+
 LangChain e LangGraph são ferramentas poderosas e muito úteis para a criação de aplicações baseadas em modelos de linguagem.
 
 - **LangChain** facilita a interação com modelos de linguagem, permitindo a composição de fluxos de conversa complexos.
@@ -144,7 +147,7 @@ Se configurado corretamente, você verá a resposta da IA para a pergunta matem�
 ---
 
 ## 6. Conclusão
-Agora você tem um projeto funcional utilizando LangChain e LangGraph. Esse exemplo mostra como estruturar fluxos de conversa com IA e organizar o processamento usando grafos.
+Agora você tem um projeto funcional utilizando LangChain ou LangGraph!. Esse exemplo mostra como estruturar fluxos de conversa com IA e organizar o processamento usando grafos.
 
 Caso tenha dúvidas, confira a [documentação oficial](https://python.langchain.com/) para LangChain e [LangGraph](https://github.com/langchain-ai/langgraph).
 
