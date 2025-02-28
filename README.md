@@ -1,12 +1,10 @@
-# Documentação Completa: LangChain e LangGraph
-
-## Introdução
-LangChain e LangGraph são ferramentas poderosas para a criação de aplicações baseadas em modelos de linguagem.
+LangChain e LangGraph são ferramentas poderosas e muito úteis para a criação de aplicações baseadas em modelos de linguagem.
 
 - **LangChain** facilita a interação com modelos de linguagem, permitindo a composição de fluxos de conversa complexos.
+  
 - **LangGraph** é uma extensão que permite estruturar essas interações em um grafo, facilitando a criação de workflows dinâmicos.
 
-Este documento explica como instalar e executar projetos utilizando essas bibliotecas.
+Neste documento, vou te explicar como instalar e executar projetos utilizando essas bibliotecas. 
 
 ---
 
